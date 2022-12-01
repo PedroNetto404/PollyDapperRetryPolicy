@@ -5,7 +5,7 @@ namespace PollyDapperRetryPolicy.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class WeatherForecastController : ControllerBase
+public class ProductController : ControllerBase
 {
 
     [HttpGet(Name = "GetProduct")]
